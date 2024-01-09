@@ -15,7 +15,9 @@ app_ui <- function(request) {
       ),
       dashboardSidebar(
         menuItem(text = "dashboard",
-                 tabName = "dashboard_tab")
+                 tabName = "dashboard_tab",
+                 selected = TRUE,
+                 icon = icon("gauge"))
       ),
       dashboardBody(
         tabItems(
