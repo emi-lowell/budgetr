@@ -10,3 +10,9 @@ $run_dev.*
 ^CODE_OF_CONDUCT\.md$
 ^doc$
 ^Meta$
+^\.github$
+^\.circleci$
+^\.circleci/config\.yml$
+^Makefile$
+^Jenkinsfile$
+^\.gitlab-ci\.yml$
